@@ -65,8 +65,7 @@ We provided two augmentation strategies, for long-tailed datasets, the proposed 
 generate new instances (Case 2). 
 
 
-### Case 1: 
-To augment using feature transfer learning
+Case 1: To augment using feature transfer learning
 
 ```shell
 python augment_ftl.py ${DATASET} \
@@ -86,8 +85,7 @@ python augment_ftl.py ${DATASET} \
 --resume=./logs/${DATASET}/${TAG}/checkpoint.pth
 ```
 
-Case 2: 
-To augment using posterior probability
+Case 2: To augment using posterior probability
 
 ```shell
 python augment.py ${DATASET} \
